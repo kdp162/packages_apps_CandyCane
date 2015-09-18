@@ -84,4 +84,19 @@
             android:title="@string/powermenu_soundpanel"
             android:defaultValue="true" />
 
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
+            android:key="power_menu_onthego_enabled"
+            android:title="@string/power_menu_onthego_title"
+            android:defaultValue="false" />
+
+         <com.gzr.candycane.preference.CustomSeekBarPreference
+            android:key="on_the_go_alpha"
+            android:title="@string/onthego_alpha_title"
+            android:summary="@string/onthego_alpha_summary"
+            android:dependency="power_menu_onthego_enabled"
+            android:defaultValue="50"
+            settings:max="100"
+            settings:min="1"
+            settings:units="" />
+
 </PreferenceScreen>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The Dirty Unicorns Project
+ * Copyright (C) 2017 CandyRoms Project!
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,15 +34,17 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.gzr.candycane.preference.CustomSeekBarPreference;
 
-public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class PowerMenu extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+    private static final String PREF_ON_THE_GO_ALPHA = "on_the_go_alpha";
     private static final String KEY_ADVANCED_REBOOT = "advanced_reboot";
     private static final String POWER_REBOOT_DIALOG_DIM = "power_reboot_dialog_dim";
     private static final String POWER_MENU_ANIMATIONS = "power_menu_animations";
-
     private ListPreference mAdvancedReboot;
     private ListPreference mPowerMenuAnimations;
     private CustomSeekBarPreference mPowerRebootDialogDim;
-
+    private CustomSeekBarPreference mOnTheGoAlphaPref;
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +71,13 @@ public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenc
                 getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS, 0)));
         mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
         mPowerMenuAnimations.setOnPreferenceChangeListener(this);
+
+        mOnTheGoAlphaPref = (CustomSeekBarPreference) findPreference(PREF_ON_THE_GO_ALPHA);
+        float OTGAlpha = Settings.System.getFloat(getContentResolver(), Settings.System.ON_THE_GO_ALPHA,
+                    0.5f);
+        final int alpha = ((int) (OTGAlpha * 100));
+        mOnTheGoAlphaPref.setValue(alpha);
+        mOnTheGoAlphaPref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -92,6 +101,11 @@ public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenc
             int alpha = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWER_REBOOT_DIALOG_DIM, alpha * 1);
+            return true;
+        } else if (preference == mOnTheGoAlphaPref) {
+            float val = (Integer) newValue;
+            Settings.System.putFloat(getContentResolver(), Settings.System.ON_THE_GO_ALPHA,
+                    val / 100);
             return true;
         } else if (preference == mPowerMenuAnimations) {
             Settings.System.putInt(getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS,
