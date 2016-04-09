@@ -27,5 +27,11 @@
             android:key="screenshot_type"
             android:title="@string/screenshot_type_title" />
 
+          <org.candyroms.candycane.preference.SystemSettingSwitchPreference
+            android:key="three_finger_gesture"
+            android:title="@string/three_finger_gesture"
+            android:summary="@string/three_finger_gesture_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
 
