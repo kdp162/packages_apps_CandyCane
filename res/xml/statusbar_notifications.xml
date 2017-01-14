@@ -18,6 +18,11 @@
     android:title="@string/statusbar_notifications_category" >
 
      <org.candyroms.candycane.preference.SystemSettingSwitchPreference
+        android:key="ticker"
+        android:fragment="com.candyroms.candycane.fragments.Ticker"
+        android:title="@string/ticker_screen_title" />
+
+     <org.candyroms.candycane.preference.SystemSettingSwitchPreference
         android:key="status_bar_notif_count"
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
