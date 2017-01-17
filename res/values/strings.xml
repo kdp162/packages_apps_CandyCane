@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2017 CandyRoms Project!
+<!--  Copyright (C) 2017 CandyRoms
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -727,4 +727,9 @@
     <!-- Location easy toggle -->
     <string name="qs_location_easy_toggle_title">Location easy toggle</string>
     <string name="qs_location_easy_toggle_summary">One click will turn location services on or off instead of taking you to settings</string>
+
+    <!-- One handed mode -->
+    <string name="one_handed_mode_title">One handed mode</string>
+    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
 </resources>
