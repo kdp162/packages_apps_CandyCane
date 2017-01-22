@@ -33,14 +33,11 @@
             android:title="@string/lock_screen_weather_settings_title"
             android:fragment="org.candyroms.candycane.fragments.LockScreenWeatherSettings" />
 
-     <ListPreference
-            android:key="lock_clock_fonts"
-            android:title="@string/lock_clock_font_title"
-            android:dialogTitle="@string/lock_clock_font_title"
-            android:entries="@array/lock_clock_fonts_entries"
-            android:entryValues="@array/lock_clock_fonts_values"
-            android:summary="@string/lock_clock_font_summary"
-            android:persistent="false" />
+     <PreferenceScreen
+            android:key="lockscreen_colors_fonts"
+            android:title="@string/lockscreen_colors_fonts_category_title"
+            android:fragment="org.candyroms.candycane.fragments.LockscreenColorsFonts"
+            android:layout="@layout/preference_lockscreen_colors_fonts" />
 
      <PreferenceScreen
             android:key="tap_to_sleep_lockscreen"
@@ -51,5 +48,4 @@
             android:key="lockscreen_battery"
             android:title="@string/lockscreen_battery_category"
             android:fragment="org.candyroms.candycane.fragments.LockScreenBattery" />
-
 </PreferenceScreen>
