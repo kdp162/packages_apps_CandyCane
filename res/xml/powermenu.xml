@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/powermenu_category" >
 
-         <com.gzr.teslacoil.preference.CustomSeekBarPreference
+         <com.gzr.candycane.preference.CustomSeekBarPreference
             android:key="power_reboot_dialog_dim"
             android:title="@string/powermenu_dialog_dim"
             android:max="100"
@@ -34,12 +34,12 @@
             android:summary="@string/power_menu_animation_summary"
             android:persistent="false" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"
             android:defaultValue="true" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_reboot"
             android:title="@string/powermenu_reboot"
             android:defaultValue="true" />
@@ -54,32 +54,32 @@
             android:dependency="powermenu_reboot"
             android:persistent="false" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_screenshot"
             android:title="@string/powermenu_screenshot"
             android:defaultValue="true" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_screenrecord"
             android:title="@string/powermenu_screenrecord"
             android:defaultValue="false" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_airplane"
             android:title="@string/powermenu_airplane"
             android:defaultValue="true" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_settings"
             android:title="@string/powermenu_settings"
             android:defaultValue="false" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_lockdown"
             android:title="@string/powermenu_lockdown"
             android:defaultValue="false" />
 
-         <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+         <com.gzr.candycane.preference.SystemSettingSwitchPreference
             android:key="powermenu_soundpanel"
             android:title="@string/powermenu_soundpanel"
             android:defaultValue="true" />

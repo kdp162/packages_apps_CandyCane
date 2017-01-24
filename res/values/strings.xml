@@ -28,7 +28,7 @@
     <string name="default_string">Default</string>
     <string name="add">Add</string>
 
-    <string name="reset_paranoid">Tesla</string>
+    <string name="reset_paranoid">Candy</string>
     <string name="reset_android">Android</string>
 
     <!-- Tabs -->
@@ -46,12 +46,12 @@
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="recents_category">Recents</string>
 
-    <string name="teslacoil_summary_title">Customize your device</string>
+    <string name="candycane_summary_title">Customize your device</string>
 
     <!-- Dialog -->
-    <string name="teslacoil_dialog_title">Coming Soon!!</string>
-    <string name="teslacoil_dialog_message">Under Construction</string>
-    <string name="teslacoil_dialog_toast">READ!</string>
+    <string name="candycane_dialog_title">Coming Soon!!</string>
+    <string name="candycane_dialog_message">Under Construction</string>
+    <string name="candycane_dialog_toast">READ!</string>
 
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Immersive Recents</string>

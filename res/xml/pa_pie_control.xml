@@ -2,7 +2,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/pa_pie_control_title">
 
-    <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+    <com.gzr.candycane.preference.SystemSettingSwitchPreference
         android:key="pa_pie_state"
         android:title="@string/pa_pie_control_enable_title"
         android:defaultValue="false" />
@@ -10,17 +10,17 @@
     <PreferenceScreen
         android:key="pa_pie_targets"
         android:title="@string/pa_pie_targets_title"
-        android:fragment="com.gzr.teslacoil.fragments.PieTargets"
+        android:fragment="com.gzr.candycane.fragments.PieTargets"
         android:dependency="pa_pie_state" />
 
     <PreferenceScreen
         android:key="pa_pie_color"
         android:title="@string/pa_pie_color_title"
-        android:fragment="com.gzr.teslacoil.fragments.PieColor"
+        android:fragment="com.gzr.candycane.fragments.PieColor"
         android:dependency="pa_pie_state" />
 
 
-   <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+   <com.gzr.candycane.preference.SystemSettingSwitchPreference
         android:key="pa_pie_always_right"
         android:title="@string/pa_pie_always_right_title"
         android:summary="@string/pa_pie_always_right_summary"
