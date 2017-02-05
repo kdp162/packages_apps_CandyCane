@@ -326,8 +326,8 @@
     </string-array>
 
     <string-array name="systemui_navbar_settings_fragments" translatable="false">
-        <item>com.gzr.candycane.fragments.SmartbarSettings</item>
-        <item>com.gzr.candycane.fragments.FlingSettings</item>
+        <item>org.candyroms.candycane.fragments.SmartbarSettings</item>
+        <item>org.candyroms.candycane.fragments.FlingSettings</item>
     </string-array>
 
     <string-array name="systemui_navbar_mode_settings">

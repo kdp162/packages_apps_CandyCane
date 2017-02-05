@@ -32,20 +32,20 @@
         <PreferenceScreen
             android:key="lockscreen_weather"
             android:title="@string/lockscreen_weather_title"
-            android:fragment="com.gzr.candycane.fragments.LockScreenWeatherSettings"
+            android:fragment="org.candyroms.candycane.fragments.LockScreenWeatherSettings"
             android:layout="@layout/preference_weather" 
             />
 
      <PreferenceScreen
             android:key="tap_to_sleep_lockscreen"
             android:title="@string/tap_to_sleep_lockscreen_category"
-            android:fragment="com.gzr.candycane.fragments.TaptosleepLockscreen"
+            android:fragment="org.candyroms.candycane.fragments.TaptosleepLockscreen"
             android:layout="@layout/preference_tap_to_sleep" />
 
      <PreferenceScreen
             android:key="lockscreen_battery"
             android:title="@string/lockscreen_battery_category"
-            android:fragment="com.gzr.candycane.fragments.LockScreenBattery"
+            android:fragment="org.candyroms.candycane.fragments.LockScreenBattery"
             android:layout="@layout/preference_lockscreen_battery" />
             
 

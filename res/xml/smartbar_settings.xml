@@ -44,7 +44,7 @@
         android:entryValues="@array/smartbar_button_animation_values"
         android:summary="@string/smartbar_button_animation_summary" />
 
-    <com.gzr.candycane.preference.CustomSeekBarPreference
+    <org.candyroms.candycane.preference.CustomSeekBarPreference
         android:key="navbar_buttons_alpha"
         android:title="@string/navbar_buttons_alpha_title"
         settings:max="255"
@@ -52,7 +52,7 @@
         settings:units=""
         android:persistent="false" />
 
-    <com.gzr.candycane.preference.SystemSettingSwitchPreference
+    <org.candyroms.candycane.preference.SystemSettingSwitchPreference
         android:key="navbar_tint_switch"
         android:title="@string/navbar_tint_switch"
         android:defaultValue="false" />
