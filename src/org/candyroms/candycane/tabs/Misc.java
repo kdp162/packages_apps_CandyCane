@@ -35,9 +35,9 @@ import com.android.internal.util.candy.CandyUtils;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class MultiTasking extends SettingsPreferenceFragment implements
+public class Misc extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "MultiTasking";
+    private static final String TAG = "Misc";
 
     private static final String KEY_OMNISWITCH = "omniswitch";
     private static final String KEY_OMNI_SWITCH_PACKAGE_NAME = "org.omnirom.omniswitch";
@@ -48,7 +48,7 @@ public class MultiTasking extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.multitasking);
+        addPreferencesFromResource(R.xml.misc);
 
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefSet = getPreferenceScreen();
@@ -80,4 +80,3 @@ public class MultiTasking extends SettingsPreferenceFragment implements
     }
 
 }
-
