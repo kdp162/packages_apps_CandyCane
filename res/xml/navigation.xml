@@ -24,19 +24,16 @@
     <Preference
         android:key="navigation_options"
         android:fragment="org.candyroms.candycane.fragments.NavbarSettings"
-        android:layout="@layout/preference_navigation"
         android:title="@string/navigationbar_settings_title" />
 
     <Preference
         android:key="pa_pie_control"
         android:title="@string/pa_pie_control_title"
-        android:fragment="org.candyroms.candycane.fragments.PieControl"
-        android:layout="@layout/preference_pie" />
+        android:fragment="org.candyroms.candycane.fragments.PieControl" />
 
     <PreferenceScreen
         android:key="button_settings"
         android:title="@string/button_settings"
-        android:fragment="org.candyroms.candycane.fragments.ButtonSettings"
-        android:layout="@layout/preference_buttons" />
+        android:fragment="org.candyroms.candycane.fragments.ButtonSettings" />
 
 </PreferenceScreen>

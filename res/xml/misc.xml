@@ -22,13 +22,11 @@
     <PreferenceScreen
             android:key="screenshot_type"
             android:title="@string/screenshot_type_category"
-            android:fragment="org.candyroms.candycane.fragments.Screenshot"
-            android:layout="@layout/preference_screenshot"/>
+            android:fragment="org.candyroms.candycane.fragments.Screenshot" />
 
     <PreferenceScreen
             android:key="recents"
             android:fragment="org.candyroms.candycane.fragments.Recents"
-            android:layout="@layout/preference_recents"
             android:title="@string/recents_category" />
 
 </PreferenceScreen>
