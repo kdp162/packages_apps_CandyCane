@@ -19,7 +19,7 @@
 
      <org.candyroms.candycane.preference.SystemSettingSwitchPreference
         android:key="ticker"
-        android:fragment="com.candyroms.candycane.fragments.Ticker"
+        android:fragment="org.candyroms.candycane.fragments.Ticker"
         android:title="@string/ticker_screen_title" />
 
      <org.candyroms.candycane.preference.SystemSettingSwitchPreference
