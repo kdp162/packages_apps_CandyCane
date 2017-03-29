@@ -109,6 +109,21 @@
         android:title="@string/pulse_solid_dimen_category" >
 
         <org.candyroms.candycane.preference.CustomSeekBarPreference
+            android:key="pulse_solid_units_opacity"
+            android:title="@string/pulse_solid_units_opacity"
+            settings:max="255"
+            settings:min="0"
+            android:dependency="pulse_2"/>
+
+        <org.candyroms.candycane.preference.CustomSeekBarPreference
+            android:key="pulse_solid_units_count"
+            android:title="@string/pulse_solid_units_count"
+            settings:max="128"
+            settings:interval="16"
+            settings:min="32"
+            android:dependency="pulse_2"/>
+
+        <org.candyroms.candycane.preference.CustomSeekBarPreference
             android:key="pulse_solid_fudge_factor"
             android:title="@string/pulse_custom_fudge_factor"
             android:max="7"
