@@ -54,6 +54,12 @@
         android:summary="@string/bt_easy_toggle_summary"
         android:defaultValue="false" />
 
+    <org.candyroms.candycane.preference.SecureSettingSwitchPreference
+        android:key="qs_location_easy_toggle"
+        android:title="@string/qs_location_easy_toggle_title"
+        android:summary="@string/qs_location_easy_toggle_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="quicksettings_header"
         android:title="@string/qs_header_title" />
