@@ -67,7 +67,7 @@
             defaultColor="#00ffffff"
             alphaSlider="true" />
 
-        <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+        <org.candyroms.candycane.preference.SystemSettingSwitchPreference
             android:key="slim_recents_corner_radius"
             android:title="@string/slim_recents_corner_radius_title"
             android:defaultValue="true" />
