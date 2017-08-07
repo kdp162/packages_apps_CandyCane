@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- General -->
-    <string name="ok">OK</string>
+    <string name="ok">Okay</string>
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>  
@@ -54,7 +54,7 @@
     <string name="candycane_dialog_toast">READ!</string>
 
     <!-- Immersive Recents -->
-    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_title">Immersive recents</string>
     <string name="immersive_recents_summary">Change the view of the recents screen</string>
     <string name="immersive_recents_dialog_title">Select recents view</string>
     <string name="immersive_recents_default">Default</string>
@@ -63,16 +63,16 @@
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_category">Power Menu</string>
+    <string name="powermenu_category">Power menu</string>
     <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_screenrecord">Screen Record</string>
+    <string name="powermenu_screenrecord">Screen recorder</string>
     <string name="powermenu_power">Power</string>
     <string name="powermenu_reboot">Reboot</string>
     <string name="powermenu_airplane">Airplane</string>
     <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_dialog_dim">Dialog dim background amount</string>
+    <string name="powermenu_lockdown">Lock down</string>
+    <string name="powermenu_soundpanel">Sound panel</string>
+    <string name="powermenu_dialog_dim">Percent to dim dialog</string>
 
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power menu animation</string>
@@ -87,7 +87,7 @@
     <string name="advanced_reboot_summary">Include options in the power menu for rebooting into recovery and bootloader</string>
     <string name="advanced_reboot_dialog_title">Advanced reboot menu</string>
     <string name="advanced_reboot_disabled">Disable</string>
-    <string name="advanced_reboot_hide_on_keyguard">Hide on lock screen</string>
+    <string name="advanced_reboot_hide_on_keyguard">Hide on lockscreen</string>
     <string name="advanced_reboot_show_always">Show always</string>
 
     <!-- Volume Key Rotation -->
@@ -218,11 +218,11 @@
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
+    <string name="force_expanded_notifications_title">Force expanded notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
 
     <!-- Disabling immersive mode messages -->
-    <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
+    <string name="disable_immersive_message_title">Disable immersive mode messages</string>
     <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
 
     <!-- QS settings -->
@@ -274,13 +274,13 @@
     <string name="weather_hide_panel_auto_title">Auto</string>
     <string name="weather_hide_panel_custom_title">Custom</string>
     <string name="weather_hide_panel_never_title">Never</string>
-    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lock screen</string>
+    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lockscreen</string>
     <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
     <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
     <string name="weather_number_of_notifications_title">Number of notifications</string>
 
     <!-- Lockscreen clock fonts -->
-    <string name="lockscreen_colors_fonts_category_title">Colors and Roboto Fonts</string>
+    <string name="lockscreen_colors_fonts_category_title">Colors and Roboto fonts</string>
     <string name="lock_clock_font_title">Lockscreen clock font</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
     <string name="lock_clock_font_normal">Normal</string>
@@ -310,15 +310,15 @@
     <string name="lockscreen_clock_date_color">Date</string>
     <string name="lockscreen_colors_reset_title">Reset lockscreen colors</string>
     <string name="lockscreen_colors_reset_message">Are you sure you want to reset these colors to default?</string>
-    <string name="yes">YES</string>
+    <string name="yes">Yes</string>
 
     <!-- Navbar toggle -->
-    <string name="navigation_bar_visible_title">Soft Navbar</string>
+    <string name="navigation_bar_visible_title">Soft navbar</string>
     <string name="navigation_bar_visible_summary">Enable or disable navbar</string>
 
     <!-- Navigation Bar -->
-    <string name="navbar_tint_switch">Navigation Button Tint</string>
-    <string name="navbar_button_color">Navigation Bar Buttons</string>
+    <string name="navbar_tint_switch">Navigation button Tint</string>
+    <string name="navbar_button_color">Navigation bar Buttons</string>
     <string name="navbar_interface_title">Interface</string>
     <string name="navbar_size">Bar size</string>
     <string name="navbar_mode">Navigation mode</string>
@@ -499,7 +499,7 @@
     <string name="navbar_buttons_alpha_title">Button transparency</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_title">Carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
@@ -560,13 +560,13 @@
 
     <!-- PA Pie control -->
     <string name="pa_piecontrol_settings_summary">Customize Pie targets, sytle, size and color</string>
-    <string name="pa_pie_control_title">Pie Control</string>
-    <string name="pa_pie_control_enable_title">Enable Pie Control</string>
-    <string name="pa_pie_targets_title">Pie Targets</string>
-    <string name="pa_pie_style_title">Pie Style</string>
+    <string name="pa_pie_control_title">Pie control</string>
+    <string name="pa_pie_control_enable_title">Enable Pie control</string>
+    <string name="pa_pie_targets_title">Pie targets</string>
+    <string name="pa_pie_style_title">Pie style</string>
     <string name="pa_pie_menu_title">Always show menu button</string>
     <string name="pa_pie_menu_summary">Whether or not the menu button should always be shown, even when its not needed</string>
-    <string name="pa_pie_size_title">Pie Size</string>
+    <string name="pa_pie_size_title">Pie size</string>
     <string name="pa_pie_size_summary">Define Pie controls size</string>
     <string name="pa_pie_size_small">Small</string>
     <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
@@ -575,7 +575,7 @@
     <string name="pa_pie_size_monster">Monster</string>
     <string name="pa_pie_size_enormous">Enormous</string>
     <string name="pa_pie_mode_default">Default</string>
-    <string name="pa_pie_gravity_title">Pie Gravity</string>
+    <string name="pa_pie_gravity_title">Pie gravity</string>
     <string name="pa_pie_gravity_summary">Select the location where the Pie will be placed</string>
     <string name="pa_pie_gravity_bottom">Bottom</string>
     <string name="pa_pie_gravity_right">Right</string>
@@ -593,45 +593,45 @@
     <string name="pa_pie_gap_small">Small</string>
     <string name="pa_pie_gap_big">Big (default)</string>
     <string name="pa_pie_gap_huge">Huge</string>
-    <string name="pa_pie_mode_title">Pie Style</string>
+    <string name="pa_pie_mode_title">Pie style</string>
     <string name="pa_pie_mode_summary">Manage how animations and status additions will be handled</string>
     <string name="pa_pie_mode_bare">Bare</string>
     <string name="pa_pie_mode_quick">Quick</string>
     <string name="pa_pie_mode_default">Default</string>
     <string name="pa_pie_mode_slow">Slow</string>
-    <string name="pa_pie_lastapp_title">Last App</string>
+    <string name="pa_pie_lastapp_title">Last app</string>
     <string name="pa_pie_lastapp_summary">Enable last app button</string>
-    <string name="pa_pie_killtask_title">Kill Task</string>
+    <string name="pa_pie_killtask_title">Kill task</string>
     <string name="pa_pie_killtask_summary">Enable kill task button</string>
     <string name="pa_pie_notifications_title">Notifications</string>
     <string name="pa_pie_notifications_summary">Enable notifications button</string>
-    <string name="pa_pie_settings_panel_title">Quick Settings Panel</string>
+    <string name="pa_pie_settings_panel_title">Quick settings panel</string>
     <string name="pa_pie_settings_panel_summary">Enable expand quick settings panel button</string>
     <string name="pa_pie_screenshot_title">Screenshot</string>
     <string name="pa_pie_screenshot_summary">Enable screenshot button</string>
-    <string name="pa_pie_color_title">Pie Color Settings</string>
-    <string name="pa_pie_color_style_title">Pie Color Style</string>
-    <string name="pa_pie_background_title">Background Color</string>
-    <string name="pa_pie_select_title">Selection Color</string>
-    <string name="pa_pie_outlines_title">Outlines Color</string>
-    <string name="pa_pie_status_clock_title">Clock Color</string>
-    <string name="pa_pie_status_title">Status Color</string>
-    <string name="pa_pie_chevron_title">Chevron Color</string>
-    <string name="pa_pie_juice_title">Battery Juice Color</string>
-    <string name="pa_pie_button_color">Button Color</string>
-    <string name="pa_pie_button_color_title">Buttons Color</string>
+    <string name="pa_pie_color_title">Pie color settings</string>
+    <string name="pa_pie_color_style_title">Pie color style</string>
+    <string name="pa_pie_background_title">Background color</string>
+    <string name="pa_pie_select_title">Selection color</string>
+    <string name="pa_pie_outlines_title">Outlines color</string>
+    <string name="pa_pie_status_clock_title">Clock color</string>
+    <string name="pa_pie_status_title">Status color</string>
+    <string name="pa_pie_chevron_title">Chevron color</string>
+    <string name="pa_pie_juice_title">Battery juice Color</string>
+    <string name="pa_pie_button_color">Button color</string>
+    <string name="pa_pie_button_color_title">Buttons color</string>
     <string name="pa_pie_always_right_title">Pie always on the right</string>
     <string name="pa_pie_always_right_summary">Pie will be always shown on the right while in landscape</string>
 
     <!-- double tap statusbar to sleep -->
-    <string name="tap_to_sleep_category">Tap to Sleep</string>
+    <string name="tap_to_sleep_category">Tap to sleep</string>
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
 
     <!-- Lockscreen double tap to sleep -->
-    <string name="tap_to_sleep_lockscreen_category">Tap to Sleep on Lockscreen</string>
+    <string name="tap_to_sleep_lockscreen_category">Tap to sleep on lockscreen</string>
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
-    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery</string>
@@ -696,9 +696,9 @@
     <string name="status_bar_show_image">Show image</string>
     
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">On-The-Go Mode</string>
-    <string name="onthego_alpha_title">On-The-Go Alpha</string>
-    <string name="onthego_alpha_summary">Alpha value of the On-The-Go overlay.</string>
+    <string name="power_menu_onthego_title">On-the-go mode</string>
+    <string name="onthego_alpha_title">On-the-go alpha</string>
+    <string name="onthego_alpha_summary">Alpha value of the on-the-go overlay</string>
 
     <!-- Three finger swipe screenshot -->
     <string name="three_finger_gesture">Three finger screenshot</string>
@@ -710,7 +710,7 @@
 
     <!-- Status Bar Ticker -->
     <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_title">Status Bar Ticker</string>
+    <string name="ticker_title">Status bar ticker</string>
     <string name="ticker_screen_summary">Customize the ticker style</string>
     <string name="ticker_summary">Enable the old status bar ticker</string>
     <string name="ticker_restore_defaults_title">Restore defaults</string>
@@ -727,12 +727,12 @@
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
 
     <!-- Slim Recents panel -->
-    <string name="slim_recents_title">Slim recents</string>
+    <string name="slim_recents_title">SlimRecents</string>
     <string name="use_slim_recents_title">Use alternative recents panel</string>
-    <string name="use_slim_recents_summary">Use Slim Recents instead of the default recents view</string>
-    <string name="slim_recents_settings_title">Slim recents settings</string>
-    <string name="slim_recents_settings_summary">View the settings for Slim Recents</string>
-    <string name="recent_panel_category">Slim Recents apps panel</string>
+    <string name="use_slim_recents_summary">Use SlimRecents instead of the default recents view</string>
+    <string name="slim_recents_settings_title">SlimRecents settings</string>
+    <string name="slim_recents_settings_summary">View the settings for SlimRecents</string>
+    <string name="recent_panel_category">SlimRecents apps panel</string>
     <string name="show_running_tasks_title">Only show running apps</string>
     <string name="recents_max_apps_title">Max allowed apps</string>
     <string name="recent_panel_scale_title">Size</string>
@@ -746,9 +746,9 @@
     <string name="recent_panel_bg_color_title">Panel background color</string>
     <string name="recent_card_bg_color_title">Card background color</string>
     <string name="recent_reset_title">Reset to stock color</string>
-    <string name="recent_reset_confirm">Are you sure you want to reset Slim Recent to stock color?</string>
+    <string name="recent_reset_confirm">Are you sure you want to reset SlimRecents to defaults?</string>
     <string name="default_auto_string">Default (app based)</string>
-    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_title">Icon pack</string>
     <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
     <string name="no_iconpacks_summary">No icon packs installed</string>
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
