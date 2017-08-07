@@ -20,7 +20,7 @@
     <string name="ok">Okay</string>
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
-    <string name="save">Save</string>  
+    <string name="save">Save</string>
     <string name="help">Help</string>
     <string name="reset_message">Reset all entries to default?</string>
     <string name="attention">Attention</string>
@@ -694,7 +694,7 @@
     <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
     <string name="status_bar_show_image">Show image</string>
-    
+
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-the-go mode</string>
     <string name="onthego_alpha_title">On-the-go alpha</string>
@@ -758,5 +758,9 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+
+    <!-- Prevvent accidental wake up -->
+    <string name="proximity_wake_title">Prevent accidental wake up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
 </resources>
