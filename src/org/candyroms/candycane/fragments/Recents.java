@@ -103,7 +103,13 @@ public class Recents extends SettingsPreferenceFragment implements OnPreferenceC
         mOmniSwitchSettings = (Preference) prefSet.findPreference(OMNISWITCH_START_SETTINGS);
         mOmniSwitchSettings.setEnabled(mRecentsUseOmniSwitch.isChecked());
 
-        mUseSlimRecents = (SwitchPreference) findPreference(USE_SLIM_RECENTS);
+        mUseSlimRecents = (SwitchPreference) prefSet.findPreference(USE_SLIM_RECENTS);
+        try {
+            mUseSlimRecents.setChecked(Settings.System.getInt(resolver,
+                    Settings.System.USE_SLIM_RECENTS) == 1);
+        } catch(SettingNotFoundException e){
+            // if the settings value is unset
+        }
         mUseSlimRecents.setOnPreferenceChangeListener(this);
 
         updateRecents();
@@ -145,8 +151,9 @@ public class Recents extends SettingsPreferenceFragment implements OnPreferenceC
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
             return true;
         } else if (preference == mUseSlimRecents) {
-            Settings.System.putInt(getContentResolver(), Settings.System.USE_SLIM_RECENTS,
-                    ((Boolean) newValue) ? 1 : 0);
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(
+                    resolver, Settings.System.USE_SLIM_RECENTS, value ? 1 : 0);
             updateRecents();
             return true;
         } else if (preference == mRecentsUseOmniSwitch) {
