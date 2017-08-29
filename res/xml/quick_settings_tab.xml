@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015-2016 The Dirty Unicorns Project
+<!-- Copyright (C) 2017 CandyRoms
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,7 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_category" >
 
@@ -60,10 +61,6 @@
         android:summary="@string/qs_location_easy_toggle_summary"
         android:defaultValue="false" />
 
-    <PreferenceCategory
-        android:key="quicksettings_header"
-        android:title="@string/qs_header_title" />
-
         <org.candyroms.candycane.preference.SystemSettingSwitchPreference
             android:key="qs_settings_icon_toggle"
             android:title="@string/qs_settings_icon_title"
@@ -102,6 +99,14 @@
             android:summary="@string/qs_date_time_center_summary"
             android:defaultValue="false" />
 
+    <org.candyroms.candycane.preference.CustomSeekBarPreference
+        android:key="sysui_qqs_count_key"
+        android:title="@string/qs_small_tiles_title"
+        settings:max="8"
+        settings:min="3"
+        settings:units=""
+        android:persistent="false" />
+
     <ListPreference
         android:key="quick_pulldown"
         android:title="@string/quick_pulldown_title"
@@ -110,7 +115,7 @@
         android:persistent="false" />
 
     <PreferenceCategory
-        android:title="@string/custom_header_category_title">
+        android:title="@string/qs_header_category">
 
     <org.candyroms.candycane.preference.SystemSettingSwitchPreference
         android:key="status_bar_custom_header"
@@ -121,7 +126,6 @@
     <ListPreference
         android:key="custom_header_provider"
         android:title="@string/custom_header_provider_title"
-        android:summary="@string/custom_header_provider_summary"
         android:persistent="false"
         android:entries="@array/custom_header_provider_entries"
         android:entryValues="@array/custom_header_provider_values"
@@ -130,7 +134,6 @@
     <ListPreference
         android:key="daylight_header_pack"
         android:title="@string/daylight_header_pack_title"
-        android:summary="@string/daylight_header_pack_summary"
         android:persistent="false"
         android:dependency="status_bar_custom_header"/>
  
@@ -153,18 +156,42 @@
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="org.omnirom.omnistyle"
                 android:targetClass="org.omnirom.omnistyle.BrowseHeaderActivity" />
-    </PreferenceScreen>
+        </PreferenceScreen>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category">
+
+        <org.candyroms.candycane.preference.CustomSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_title"
+            settings:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
+
+        <org.candyroms.candycane.preference.CustomSeekBarPreference
+            android:key="qs_rows_portrait"
+            android:title="@string/qs_rows_portrait_title"
+            settings:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
+ 
+        <org.candyroms.candycane.preference.CustomSeekBarPreference
+            android:key="qs_rows_landscape"
+            android:title="@string/qs_rows_landscape_title"
+            settings:max="3"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="quicksettings_tiles_category"
         android:title="@string/quicksettings_tiles_category">
-
-    <Preference
-        android:key="quicksettings"
-        android:fragment="org.candyroms.candycane.fragments.QuickSettingsLayout"
-        android:title="@string/quicksettings_category" />
 
     <ListPreference
         android:key="qs_tile_animation_style"
@@ -185,14 +212,6 @@
         android:title="@string/qs_tile_animation_interpolator_title"
         android:entries="@array/qs_tile_animation_interpolator_entries"
         android:entryValues="@array/qs_tile_animation_interpolator_values"
-        android:persistent="false" />
-
-    <org.candyroms.candycane.preference.CustomSeekBarPreference
-        android:key="sysui_qqs_count_key"
-        android:title="@string/qs_small_tiles_title"
-        settings:max="8"
-        settings:min="3"
-        settings:units=""
         android:persistent="false" />
 
     </PreferenceCategory>

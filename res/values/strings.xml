@@ -33,14 +33,15 @@
 
     <!-- Tabs -->
     <string name="system_category">System</string>
+    <string name="quicksettings_category">Quicksettings</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="statusbar_category">Statusbar</string>
     <string name="navigation_category">Navigation</string>
     <string name="misc_category">Misc</string>
     <string name="weather_cat_lockscreen">Lockscreen</string>
 
+    <!-- Categories -->
     <string name="button_settings">Button settings</string>
-    <string name="quicksettings_category">Quicksettings</string>
     <string name="traffic_category">Traffic indicators</string>
     <string name="statusbar_notifications_category">Notifications</string>
     <string name="statusbar_items_category">Statusbar items</string>
@@ -139,8 +140,16 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
 
+    <!-- Animation Settings -->
+    <string name="quicksettings_tiles_category">Animations</string>
+    <string name="animation_settings_summary">Set custom styles for system animations</string>
+    <string name="system_animation_tab">System</string>
+    <string name="toast_animation_tab">Toast</string>
+    <string name="listview_animation_tab">Listview</string>
+    <string name="power_menu_animation_tab">Power menu</string>
+    <string name="qs_animation_tab">Quick Settings</string>
+
     <!-- Tiles animation style  -->
-    <string name="quicksettings_tiles_category">Tile animation options</string>
     <string name="qs_tile_animation_style_title">Tiles animation style</string>
     <string name="qs_tile_animation_duration_title">Tiles animation duration</string>
     <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
@@ -204,6 +213,24 @@
     <string name="bt_easy_toggle_title">Advanced bluetooth toggle</string>
     <string name="bt_easy_toggle_summary">One tap action to toggle bluetooth</string>
 
+  <!-- Quick Settings -->
+    <string name="qstiles_layout_summary">Configure the layout of the tiles panel (number of rows and columns).</string>
+    <string name="qstiles_layout_title">QS tiles layout</string>
+    <string name="qstiles_category_title">QS TILES</string>
+    <string name="qs_header_category">QS header options</string>
+    <string name="status_bar_custom_header_title">Custom header image</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
+    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Static</string>
+    <string name="daylight_header_provider_title">Dynamic</string>
+    <string name="custom_header_provider_title">Header provider</string>
+    <string name="custom_header_browse_title">Browse installed headers</string>
+    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+
     <!-- Quicksettings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
@@ -225,11 +252,9 @@
     <string name="disable_immersive_message_title">Disable immersive mode messages</string>
     <string name="disable_immersive_message_summary">This will hide all immersive mode Messages</string>
 
-    <!-- QS -->
+    <!-- Quick settings tiles columns and rows config -->
     <string name="qs_small_tiles_title">Small QS tiles</string>
-    <!-- Quicksettings tiles columns and rows config -->
-    <string name="quicksettings_category">Quicksettings</string>
-    <string name="qs_layout_category">Rows and columns</string>
+    <string name="qs_layout_category">QS tiles layout</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
     <string name="qs_columns_title">Columns</string>
@@ -657,7 +682,6 @@
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 
     <!-- QS Header -->
-    <string name="qs_header_title">Header</string>
     <string name="qs_settings_icon_title">Settings shortcut</string>
     <string name="qs_settings_icon_summary">Enable the settings shortcut in the header</string>
     <string name="qs_settings_expanded_title">Settings shortcut expanded</string>
@@ -754,23 +778,5 @@
     <!-- Prevvent accidental wake up -->
     <string name="proximity_wake_title">Prevent accidental wake up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
-    <string name="quicksettings_general_options_category">General options</string>
-    <string name="custom_header_category_title">Custom header</string>
-    <string name="qs_header_category">Quicksettings header</string>
-    <string name="status_bar_custom_header_title">Custom header image</string>
-    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="daylight_header_pack_summary">Select header pack from a list of packages</string>
-    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_provider_summary">Choose method of header imaging</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
 
 </resources>

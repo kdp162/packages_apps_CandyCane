@@ -38,11 +38,6 @@
             android:entries="@array/status_bar_weather_entries"
             android:entryValues="@array/status_bar_weather_values" />
 
-    <PreferenceScreen
-        android:key="quicksettings"
-        android:fragment="org.candyroms.candycane.fragments.QuickSettings"
-        android:title="@string/quicksettings_category" />
-
      <PreferenceScreen
         android:key="traffic"
         android:fragment="org.candyroms.candycane.fragments.Traffic"

@@ -48,6 +48,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import org.candyroms.candycane.tabs.System;
+import org.candyroms.candycane.tabs.QuickSettingsTab;
 import org.candyroms.candycane.tabs.Lockscreen;
 import org.candyroms.candycane.tabs.StatusBar;
 import org.candyroms.candycane.tabs.Navigation;
@@ -168,10 +169,11 @@ public class CandyCane extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new System();
-            frags[1] = new Lockscreen();
-            frags[2] = new StatusBar();
-            frags[3] = new Navigation();
-            frags[4] = new Misc();
+            frags[1] = new QuickSettingsTab();
+            frags[2] = new Lockscreen();
+            frags[3] = new StatusBar();
+            frags[4] = new Navigation();
+            frags[5] = new Misc();
         }
 
         @Override
@@ -194,6 +196,7 @@ public class CandyCane extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.system_category),
+                    getString(R.string.quicksettings_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.statusbar_category),
                     getString(R.string.navigation_category),
