@@ -31,4 +31,9 @@
             android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
             android:title="@string/power_menu_expanded_desktop" />
 
+         <PreferenceScreen
+            android:key="screenshot_type"
+            android:title="@string/screenshot_type_category"
+            android:fragment="org.candyroms.candycane.fragments.Screenshot" />
+
 </PreferenceScreen>

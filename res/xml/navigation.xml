@@ -36,4 +36,9 @@
         android:title="@string/button_settings"
         android:fragment="org.candyroms.candycane.fragments.ButtonSettings" />
 
+    <PreferenceScreen
+        android:key="recents"
+        android:fragment="org.candyroms.candycane.fragments.Recents"
+        android:title="@string/recents_category" />
+
 </PreferenceScreen>

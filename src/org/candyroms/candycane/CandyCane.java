@@ -52,7 +52,6 @@ import org.candyroms.candycane.tabs.QuickSettingsTab;
 import org.candyroms.candycane.tabs.Lockscreen;
 import org.candyroms.candycane.tabs.StatusBar;
 import org.candyroms.candycane.tabs.Navigation;
-import org.candyroms.candycane.tabs.Misc;
 import org.candyroms.candycane.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.dashboard.SummaryLoader;
@@ -173,7 +172,6 @@ public class CandyCane extends SettingsPreferenceFragment {
             frags[2] = new Lockscreen();
             frags[3] = new StatusBar();
             frags[4] = new Navigation();
-            frags[5] = new Misc();
         }
 
         @Override
@@ -199,8 +197,7 @@ public class CandyCane extends SettingsPreferenceFragment {
                     getString(R.string.quicksettings_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.statusbar_category),
-                    getString(R.string.navigation_category),
-                    getString(R.string.misc_category)};
+                    getString(R.string.navigation_category)};
         return titleString;
     }
 

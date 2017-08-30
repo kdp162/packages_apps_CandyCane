@@ -37,7 +37,6 @@
     <string name="lockscreen_category">Lockscreen</string>
     <string name="statusbar_category">Statusbar</string>
     <string name="navigation_category">Navigation</string>
-    <string name="misc_category">Misc</string>
     <string name="weather_cat_lockscreen">Lockscreen</string>
 
     <!-- Categories -->
