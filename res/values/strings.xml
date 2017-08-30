@@ -34,13 +34,13 @@
     <!-- Tabs -->
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
-    <string name="statusbar_category">Status Bar</string>
+    <string name="statusbar_category">Statusbar</string>
     <string name="navigation_category">Navigation</string>
     <string name="misc_category">Misc</string>
     <string name="weather_cat_lockscreen">Lockscreen</string>
 
     <string name="button_settings">Button settings</string>
-    <string name="quicksettings_category">Quick settings</string>
+    <string name="quicksettings_category">Quicksettings</string>
     <string name="traffic_category">Traffic indicators</string>
     <string name="statusbar_notifications_category">Notifications</string>
     <string name="statusbar_items_category">Statusbar items</string>
@@ -162,10 +162,10 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
-    <!-- Quick Pulldown-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <!-- Quickpulldown-->
+    <string name="quick_pulldown_title">Quickpulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the statusbar pulls down quicksettings</string>
+    <string name="quick_pulldown_summary_always">Always show quicksettings on statusbar pulldown</string>
     <string name="quick_pulldown_off">Off</string>
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
@@ -173,7 +173,7 @@
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="show_network_traffic_state">Statusbar traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
     <string name="show_network_traffic_disable">Disabled</string>
@@ -182,11 +182,11 @@
     <string name="show_network_traffic_all">Outgoing and incoming</string>
     <string name="show_network_traffic_bit">Bits per second</string>
     <string name="show_network_traffic_byte">Bytes per second</string>
-    <string name="show_network_traffic_500">500 ms</string>
-    <string name="show_network_traffic_1000">1000 ms</string>
-    <string name="show_network_traffic_1500">1500 ms</string>
-    <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="show_network_traffic_500">500ms</string>
+    <string name="show_network_traffic_1000">1000ms</string>
+    <string name="show_network_traffic_1500">1500ms</string>
+    <string name="show_network_traffic_2000">2000ms</string>
+    <string name="network_traffic_autohide">Autohide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
@@ -197,21 +197,21 @@
     <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
 
     <!-- Wifi toggle -->
-    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
+    <string name="qs_wifi_easy_toggle_title">Advanced WiFi toggle</string>
     <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
 
     <!-- BT easy toggle -->
-    <string name="bt_easy_toggle_title">Bluetooth easy toggle</string>
+    <string name="bt_easy_toggle_title">Advanced bluetooth toggle</string>
     <string name="bt_easy_toggle_summary">One tap action to toggle bluetooth</string>
 
-    <!-- Quick Settings brightness slider -->
+    <!-- Quicksettings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
     <string name="brightness_icon_title">Brightness icon </string>
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
 
     <!-- Navbar Tuner -->
-    <string name="navbar_tuner_title">Navbar Tuner</string>
+    <string name="navbar_tuner_title">Navbar tuner</string>
 
     <!-- Notification Count in Statusbar -->
     <string name="status_bar_notif_count_title">Show notification count</string>
@@ -223,12 +223,12 @@
 
     <!-- Disabling immersive mode messages -->
     <string name="disable_immersive_message_title">Disable immersive mode messages</string>
-    <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+    <string name="disable_immersive_message_summary">This will hide all immersive mode Messages</string>
 
-    <!-- QS settings -->
+    <!-- QS -->
     <string name="qs_small_tiles_title">Small QS tiles</string>
-    <!-- Quick settings tiles columns and rows config -->
-    <string name="quicksettings_category">Quick settings</string>
+    <!-- Quicksettings tiles columns and rows config -->
+    <string name="quicksettings_category">Quicksettings</string>
     <string name="qs_layout_category">Rows and columns</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
@@ -244,12 +244,12 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-    <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_targets_title">Bottom L/R Shortcuts</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_targets_title">Bottom L/R shortcuts</string>
 
-    <!-- Weather in status bar -->
+    <!-- Weather in statusbar -->
     <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+    <string name="status_bar_show_weather_summary">Show the weather in the statusbar header</string>
     <string name="weather_cat_statusbar_title">Statusbar</string>
 
     <!-- Lockscreen weather -->
@@ -266,8 +266,8 @@
     <string name="weather_hide_panel_auto_title">Auto</string>
     <string name="weather_hide_panel_custom_title">Custom</string>
     <string name="weather_hide_panel_never_title">Never</string>
-    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lockscreen</string>
-    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
+    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications reach the maximum number of notifications on the lockscreen</string>
+    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications reach the chosen number of notifications</string>
     <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
     <string name="weather_number_of_notifications_title">Number of notifications</string>
 
@@ -278,21 +278,21 @@
     <string name="lock_clock_font_normal">Normal</string>
     <string name="lock_clock_font_bold">Bold</string>
     <string name="lock_clock_font_italic">Italic</string>
-    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold italic</string>
     <string name="lock_clock_font_light_normal">Light (default)</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_light_italic">Light italic</string>
     <string name="lock_clock_font_thin_normal">Thin</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin italic</string>
     <string name="lock_clock_font_condensed_normal">Condensed</string>
-    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
-    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed bold</string>
+    <string name="lock_clock_font_condensed_italic">Condensed italic</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed bold italic</string>
     <string name="lock_clock_font_medium_normal">Medium</string>
-    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_medium_italic">Medium italic</string>
     <string name="lock_clock_font_black_normal">Black</string>
-    <string name="lock_clock_font_black_italic">Black Italic</string>
-    <string name="lock_clock_font_condensed_light_normal">Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="lock_clock_font_black_italic">Black italic</string>
+    <string name="lock_clock_font_condensed_light_normal">Condensed light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed light italic</string>
 
     <!-- Lockscreen Colors -->
     <string name="lockscreen_colors_title">Lockscreen colors</string>
@@ -323,7 +323,7 @@
     <string name="info_pref_note_title">Note</string>
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">Icon packs</string>
-    <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
+    <string name="image_exceeds_max_allowed_size">Image must not exceed a resolution of 512x512</string>
     <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
     <string name="picker_activities">Activities</string>
     <string name="select_custom_app_title">Select custom app</string>
@@ -339,12 +339,12 @@
     <string name="hardware_keys_assist_key_title">Search button</string>
     <string name="hardware_keys_appswitch_key_title">Overview button</string>
     <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
+    <string name="hardware_keys_double_tap_summary">Set double-tap action</string>
+    <string name="hardware_keys_single_tap_summary">Set single-tap action</string>
     <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
+    <string name="hardware_keys_single_tap_title">Single-tap action</string>
     <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_double_tap_title">Double-tap action</string>
     <string name="hardware_keys_category">Hardware keys</string>
     <string name="hardware_keys_disable_title">Disable/enable hardware keys</string>
 
@@ -367,8 +367,8 @@
     <!-- Fling -->
     <string name="fling_settings">Fling settings</string>
     <string name="fling_interface">Fling</string>
-    <string name="fling_enable_title">Enable Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
+    <string name="fling_enable_title">Enable fling</string>
+    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a back or home assignment, set the desired assignment first</string>
     <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
     <string name="fling_def_summary">No action set</string>
     <string name="fling_swipe_actions">Swipe gestures</string>
@@ -379,11 +379,11 @@
     <string name="fling_long_swipe_left">Left long swipe</string>
     <string name="fling_right_up_swipe">Right side swipe up</string>
     <string name="fling_left_up_swipe">Left side swipe up</string>
-    <string name="fling_single_tap">Single tap right</string>
-    <string name="fling_double_tap">Double tap right</string>
+    <string name="fling_single_tap">Single-tap right</string>
+    <string name="fling_double_tap">Double-tap right</string>
     <string name="fling_long_press">Long press right</string>
-    <string name="fling_single_left_tap">Single tap left</string>
-    <string name="fling_double_left_tap">Double tap left</string>
+    <string name="fling_single_left_tap">Single-tap left</string>
+    <string name="fling_double_left_tap">Double-tap left</string>
     <string name="fling_long_left_press">Long press left</string>
     <string name="long_swipe_portrait_title">Portrait</string>
     <string name="long_swipe_landscape_title">Landscape</string>
@@ -517,11 +517,11 @@
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the statusbar</string>
 
     <!-- Heads up -->
-    <string name="headsup_section_header">Heads up notifications</string>
-    <string name="heads_up_notifications">Heads up</string>
+    <string name="headsup_section_header">Heads-up notifications</string>
+    <string name="heads_up_notifications">Heads-up</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
 
@@ -597,8 +597,8 @@
     <string name="pa_pie_killtask_summary">Enable kill task button</string>
     <string name="pa_pie_notifications_title">Notifications</string>
     <string name="pa_pie_notifications_summary">Enable notifications button</string>
-    <string name="pa_pie_settings_panel_title">Quick settings panel</string>
-    <string name="pa_pie_settings_panel_summary">Enable expand quick settings panel button</string>
+    <string name="pa_pie_settings_panel_title">Quicksettings panel</string>
+    <string name="pa_pie_settings_panel_summary">Enable expand quicksettings panel button</string>
     <string name="pa_pie_screenshot_title">Screenshot</string>
     <string name="pa_pie_screenshot_summary">Enable screenshot button</string>
     <string name="pa_pie_color_title">Pie color settings</string>
@@ -618,7 +618,7 @@
     <!-- double tap statusbar to sleep -->
     <string name="tap_to_sleep_category">Tap to sleep</string>
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the statusbar to put the device to sleep</string>
 
     <!-- Lockscreen double tap to sleep -->
     <string name="tap_to_sleep_lockscreen_category">Tap to sleep on lockscreen</string>
@@ -652,23 +652,23 @@
     <string name="text_charging_symbol_tilde">Tilde</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_category">Lockscreen Battery</string>
+    <string name="lockscreen_battery_category">Lockscreen battery</string>
     <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 
     <!-- QS Header -->
     <string name="qs_header_title">Header</string>
-    <string name="qs_settings_icon_title">Settings Shortcut</string>
+    <string name="qs_settings_icon_title">Settings shortcut</string>
     <string name="qs_settings_icon_summary">Enable the settings shortcut in the header</string>
-    <string name="qs_settings_expanded_title">Settings Shortcut Expanded</string>
+    <string name="qs_settings_expanded_title">Settings shortcut expanded</string>
     <string name="qs_settings_expanded_summary">Only enable the settings shortcut when expanded</string>
-    <string name="qs_edit_title">Edit Icon</string>
+    <string name="qs_edit_title">Edit icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the header</string>
-    <string name="qs_multiuser_switch_title">MultiUser Switch</string>
-    <string name="qs_multiuser_switch_summary">Enable the MultiUser switch in the header</string>
-    <string name="qs_expand_indicator_title">Expand Indicator</string>
+    <string name="qs_multiuser_switch_title">MultiUser switch</string>
+    <string name="qs_multiuser_switch_summary">Enable the multiuser switch in the header</string>
+    <string name="qs_expand_indicator_title">Expand indicator</string>
     <string name="qs_expand_indicator_summary">Enable the expand indicator (^) in the header</string>
-    <string name="qs_date_time_center_title">Center Date and Time</string>
+    <string name="qs_date_time_center_title">Center date and time</string>
     <string name="qs_date_time_center_summary">Requires one or more icons to be disabled</string>
 
     <!-- OmniJaws -->
@@ -677,9 +677,9 @@
     <string name="weather_icon_pack_title">Condition icon pack</string>
 
     <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_title">Status bar weather</string>
+    <string name="statusbar_weather_title">Statusbar weather</string>
     <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
-    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+    <string name="statusbar_weather_dialog_title">Statusbar weather style</string>
     <string name="status_bar_weather_hidden">Hidden weather</string>
     <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
     <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
@@ -700,11 +700,11 @@
     <string name="systemui_recents_mem_display_title">Show memory bar</string>
     <string name="systemui_recents_mem_display_summary">Display RAM usage under recents view</string>
 
-    <!-- Status Bar Ticker -->
+    <!-- Statusbar Ticker -->
     <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_title">Statusbar ticker</string>
     <string name="ticker_screen_summary">Customize the ticker style</string>
-    <string name="ticker_summary">Enable the old status bar ticker</string>
+    <string name="ticker_summary">Enable the old statusbar ticker</string>
     <string name="ticker_restore_defaults_title">Restore defaults</string>
     <string name="text_title">Text</string>
     <string name="icon_title">Icon</string>
@@ -755,9 +755,9 @@
     <string name="proximity_wake_title">Prevent accidental wake up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
-    <string name="quicksettings_general_options_category">General Options</string>
-    <string name="custom_header_category_title">Custom Header</string>
-    <string name="qs_header_category">Quick settings header</string>
+    <string name="quicksettings_general_options_category">General options</string>
+    <string name="custom_header_category_title">Custom header</string>
+    <string name="qs_header_category">Quicksettings header</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     <string name="daylight_header_pack_title">Header image pack</string>
