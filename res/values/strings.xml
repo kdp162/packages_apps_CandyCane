@@ -648,6 +648,10 @@
     <string name="tap_to_sleep_lockscreen_category">Tap to sleep on lockscreen</string>
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
     <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
+    
+    <!-- Lockscreen Torch -->
+    <string name="keyguard_torch_title">Lockscreen torch</string>
+    <string name="keyguard_torch_summary">Long press the power button while screen is off to turn on the flashlight</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery</string>
